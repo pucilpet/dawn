@@ -1,12 +1,12 @@
 const CONFIG = new Config({
   crypto: {
-    coin: 'ETH',
+    coin: 'BTC',
     currency: 'USD',
     refreshIn: 10
   },
   overrideStorage: true, // override localStorage with fixed userconfig values
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Kuopio',
     scale: 'C'
   },
   clock: {
@@ -29,6 +29,206 @@ const CONFIG = new Config({
   disabled: [],
   openLastVisitedTab: false,
   tabs: [
+    {
+      name: "Work",
+      background_url: "src/img/banners/bg-1.gif",
+      categories: [
+        {
+          name: "chat",
+          links: [
+            {
+              name: "ClickConnector",
+              url: "https://hersecret.clickconnector.io/",
+              icon: "droplet-bolt",
+              icon_color: "#a6da95",
+            },
+            {
+              name: "crisp",
+              url: "https://app.crisp.chat",
+              icon: "droplet-bolt",
+              icon_color: "#a6da95",
+            },
+            {
+              name: "x",
+              url: "https://twitter.com/hakukonevelhot",
+              icon: "brand-x",
+              icon_color: "#f5a97f",
+            },
+            {
+              name: "tweet hunter",
+              url: "https://app.tweethunter.io/",
+              icon: "brand-linkedin",
+              icon_color: "#f5a97f",
+            },
+            {
+              name: "linkedin sales",
+              url: "https://linkedin.com/sales/lists/people",
+              icon: "brand-linkedin",
+              icon_color: "#f5a97f",
+            },
+            {
+              name: "kanbox",
+              url: "https://app.kanbox.io/",
+              icon: "brand-linkedin",
+              icon_color: "#f5a97f",
+            },
+            {
+              name: "before sunset",
+              url: "https://app.beforesunset.ai/",
+              icon: "brand-linkedin",
+              icon_color: "#f5a97f",
+            },
+          ],
+        },
+        {
+          name: "seo",
+          links: [
+            {
+              name: "labrika",
+              url: "https://labrika.com/",
+              icon: "brand-gmail",
+              icon_color: "#a6da95",
+            },
+            {
+              name: "seo.hakukonevelhot",
+              url: "https://seo.hakukonevelhot.fi/dashboard/",
+              icon: "calendar-filled",
+              icon_color: "#f5a97f",
+            },
+            {
+              name: "ahrefs",
+              url: "https://app.ahrefs.com/dashboard",
+              icon: "clipboard-check",
+              icon_color: "#ed8796",
+            },
+            {
+              name: "smatLeads",
+              url: "https://app.smatleads.com/",
+              icon: "badge-filled",
+              icon_color: "#ed8796",
+            },
+            {
+              name: "vizologi",
+              url: "https://app.vizologi.com/",
+              icon: "eye-search",
+              icon_color: "#a6da95",
+            },
+            {
+              name: "zocket",
+              url: "https://web.zocket.com/dashboard/products",
+              icon: "eye-search",
+              icon_color: "#a6da95",
+            },
+            {
+              name: "leadrocks",
+              url: "https://leadrocks.io/my",
+              icon: "eye-search",
+              icon_color: "#a6da95",
+            },
+            {
+              name: "climbo",
+              url: "https://app.climbo.com/",
+              icon: "eye-search",
+              icon_color: "#a6da95",
+            },
+            {
+              name: "Maekersuite",
+              url: "https://app.climbo.com/",
+              icon: "eye-search",
+              icon_color: "#a6da95",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: "dev",
+      background_url: "src/img/banners/bg-2.gif",
+      categories: [
+        {
+          name: "other tools",
+          links: [
+            {
+              name: "boost.space",
+              url: "https://app.boost.space/",
+              icon: "badge-filled",
+              icon_color: "#ed8796",
+            },
+            {
+              name: "cal.com",
+              url: "https://cal.hakukonevelhot.fi/bookings/upcoming",
+              icon: "clipboard-check",
+              icon_color: "#ed8796",
+            },
+            {
+              name: "webstudio",
+              url: "https://apps.webstudio.is/dashboard",
+              icon: "clipboard-check",
+              icon_color: "#ed8796",
+            },
+            {
+              name: "enji",
+              url: "https://app.enji.co/",
+              icon: "clipboard-check",
+              icon_color: "#ed8796",
+            },
+            {
+              name: "epicpxls",
+              url: "https://www.epicpxls.com/",
+              icon: "clipboard-check",
+              icon_color: "#ed8796",
+            },
+            {
+              name: "missionx",
+              url: "https://app.missionx.ai/home",
+              icon: "clipboard-check",
+              icon_color: "#ed8796",
+            },
+            {
+              name: "vuala - invoices",
+              url: "https://vualapp.com/dashboard",
+              icon: "clipboard-check",
+              icon_color: "#ed8796",
+            },
+          ],
+        },
+        {
+          name: "video tools",
+          links: [
+            {
+              name: "jupitrr",
+              url: "https://jupitrr.com/create-slideshow",
+              icon: "news",
+              icon_color: "#f5a97f",
+            },
+            {
+              name: "konvey",
+              url: "https://dashboard.konvey.app/dashboard",
+              icon: "badge-filled",
+              icon_color: "#ed8796",
+            },
+            {
+              name: "onetake",
+              url: "https://app.onetake.ai/app/projects",
+              icon: "badge-filled",
+              icon_color: "#ed8796",
+            },
+            {
+              name: "odio.ai",
+              url: "https://odio.ai/tts/create",
+              icon: "news",
+              icon_color: "#f5a97f",
+            },
+            {
+              name: "lerno - calls",
+              url: "https://app.lerno.ai/",
+              icon: "news",
+              icon_color: "#f5a97f",
+            },
+          ],
+        },
+      ],
+    },
     {
       name: 'boards',
       background_url: 'src/img/banners/bg-1.gif',
